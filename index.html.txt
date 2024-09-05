@@ -60,6 +60,13 @@
         <p class="text-lg mt-4">
           In this role, I managed a fully virtual press tour, crafting engaging press kits and curating targeted media outreach lists that boosted brand visibility. I also played a pivotal role in developing comprehensive branding strategies for multiple clients, including creating logos and defining brand DNA. My work in content creation involved authoring and optimizing website copy and blog posts for SEO, designing landing page copy, and managing content calendars. Additionally, I led a sales process project, conducting market research, competitor analysis, and overseeing email campaigns to enhance lead conversion.
         </p>
+        <ul class="list-disc list-inside text-lg mt-4">
+          <li>Increased lead conversion rates by 10% through targeted competitor analysis and tailored sales scripts as part of a comprehensive sales process project.</li>
+          <li>Boosted client satisfaction by 15% through the development of cohesive branding strategies, including logo creation and brand identity development.</li>
+          <li>Enhanced SEO performance by 10%, optimized blog posts and website content for two clients, driving increased organic traffic and user engagement.</li>
+          <li>Managed a virtual press tour, which significantly increased the brand's visibility and media coverage by crafting engaging headlines and press kits.</li>
+          <li>Repurposed content and optimized landing pages, leading to improved user journey and higher engagement on client websites.</li>
+        </ul>
       </div>
 
       <div class="mb-8">
@@ -68,6 +75,11 @@
         <p class="text-lg mt-4">
           As a digital marketing strategist, I led market research and competitive analysis efforts, defining clear marketing objectives and developing detailed buyer personas. I created a comprehensive content strategy and selected the most effective digital channels, including social media, SEO, PPC, and content marketing. I also allocated marketing budgets, projected ROI, and set up performance tracking tools to ensure the success of digital campaigns.
         </p>
+        <ul class="list-disc list-inside text-lg mt-4">
+          <li>Improved marketing ROI by 10% by developing a comprehensive content strategy that utilized the most effective digital channels such as social media, SEO, PPC, and email marketing.</li>
+          <li>Increased brand visibility through strategic market research and competitive analysis, which informed a detailed buyer persona and content strategy.</li>
+          <li>Set up analytics tools to monitor key performance indicators (KPIs), ensuring the ability to measure and improve the performance of digital marketing campaigns.</li>
+        </ul>
       </div>
 
       <div class="mb-8">
@@ -76,6 +88,11 @@
         <p class="text-lg mt-4">
           I conducted in-depth research with Gen Z consumers, utilizing surveys and social media analytics to understand brand perceptions. My analysis of retail trends and competitor strategies informed actionable strategic recommendations that were presented to senior management. I also played a creative role in designing social media posts for product promotions, ensuring alignment with brand aesthetics and enhancing online engagement.
         </p>
+        <ul class="list-disc list-inside text-lg mt-4">
+          <li>Received recognition for strategic insights by presenting comprehensive research findings and actionable recommendations to Hugo Boss senior management, positively impacting brand differentiation efforts.</li>
+          <li>Created high-performing social media content, aligning it with Hugo Boss’s brand aesthetics, which led to increased online engagement.</li>
+          <li>Identified gaps in competitor strategies through a comparative analysis, contributing to improved market positioning for Hugo Boss’s products.</li>
+        </ul>
       </div>
 
       <div class="mb-8">
@@ -84,6 +101,11 @@
         <p class="text-lg mt-4">
           In this role, I led a comprehensive SEO project, leveraging tools like SEMrush for keyword research, site audits, and competitive analysis. I optimized blog content and website elements to improve organic search rankings and drive traffic. Additionally, I conducted lead generation and potential partner research, managing CRM systems to streamline partner integrations and service bookings across multiple platforms.
         </p>
+        <ul class="list-disc list-inside text-lg mt-4">
+          <li>Increased website visibility and search engine rankings by leading a full-scale SEO project, utilizing tools like SEMrush for keyword research, site audits, and competitive analysis.</li>
+          <li>Optimized blog content for SEO, driving organic traffic and improving search engine performance across multiple industries.</li>
+          <li>Streamlined partner service bookings by managing and integrating partner information into CRM systems like LiquidSpace and Upflex, facilitating easier access for 30+ partnerships.</li>
+        </ul>
       </div>
     </div>
   </section>
@@ -92,9 +114,11 @@
   <section id="projects" class="py-16 px-4">
     <div class="container mx-auto">
       <h3 class="text-3xl font-bold mb-6">Projects</h3>
+
+      <!-- Existing Project Details -->
       <div class="mb-8">
-        <h4 class="text-2xl font-semibold">Capstone Project Leader – Management Consulting</h4>
-        <p class="text-lg">
+        <h4 class="text-2xl font-semibold">Management Consulting Project Lead - Big 4 Firm</h4>
+        <p class="text-lg"> 
           Led a comprehensive consultancy project focused on Environmental, Social, and Governance (ESG) for a family-owned business in the energy sector. Conducted in-depth ESG readiness analysis using SWOT and stakeholder frameworks, identifying sustainability challenges and opportunities. Synthesized findings to highlight competitive advantages, developed a strategic proposal with actionable recommendations, and delivered final presentations to senior stakeholders, successfully aligning with business objectives.
         </p>
       </div>
@@ -111,6 +135,19 @@
         <p class="text-lg">
           Collaborated on a marketing plan designed to address a client’s seasonal performance challenges. Conducted in-depth market analysis to uncover the root causes of the downturn, and helped develop a comprehensive proposal with strategies focused on improving summer operations. Contributed to creating a full marketing plan, including promotional strategies, target audience segmentation, and budget allocation, ensuring alignment with client goals.
         </p>
+      </div>
+
+      <!-- New Video and Portfolio Section -->
+      <div class="mb-8">
+        <h4 class="text-2xl font-semibold">Video Project for Hugo Boss</h4>
+        <p class="text-lg mb-6">Here is a video I created for Hugo Boss showcasing my work in branding and social media content.</p>
+        <!-- YouTube Short Embed -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/egMCLfQ6yqI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+      <div class="mb-8">
+        <p class="text-lg mb-4">You can also view my social media portfolio here:</p>
+        <a href="https://www.canva.com/design/DAF83kUEUQs/M8JZ8Weiy6NaAXChf9c4wQ/view?utm_content=DAF83kUEUQs&utm_campaign=designshare&utm_medium=link&utm_source=editor" class="text-blue-600 underline">Social Media Portfolio</a>
       </div>
     </div>
   </section>
@@ -150,7 +187,7 @@
   <section id="contact" class="bg-gray-200 py-16 px-4">
     <div class="container mx-auto">
       <h3 class="text-3xl font-bold mb-6">Contact Me</h3>
-      <form action="https://formspree.io/f/{your_form_id}" method="POST" class="bg-white p-8 shadow-lg rounded-lg">
+      <form action="https://formspree.io/f/https://formspree.io/f/xwpeznob" method="POST" class="bg-white p-8 shadow-lg rounded-lg">
         <div class="mb-4">
           <label for="name" class="block text-gray-700">Name:</label>
           <input type="text" name="name" id="name" class="w-full px-4 py-2 border rounded-lg" required>
