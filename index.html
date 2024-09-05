@@ -5,20 +5,92 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sofyan Zibdeh - Digital Marketing Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    /* Custom styles for enhanced design */
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    h1, h3 {
+      color: #1F2937; /* Darker text color for better contrast */
+    }
+    header {
+      background: linear-gradient(90deg, rgba(29,78,216,1) 0%, rgba(37,99,235,1) 100%);
+      color: white;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      transition: all 0.3s ease-in-out;
+    }
+    header h1:hover {
+      color: #f9fafb; /* Lighter hover color */
+    }
+    nav ul li a {
+      color: white;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+    nav ul li a:hover {
+      color: #E5E7EB;
+    }
+    section {
+      border-radius: 8px;
+      background-color: white;
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+    section h3 {
+      border-bottom: 2px solid #3B82F6;
+      padding-bottom: 0.5rem;
+    }
+    .container {
+      max-width: 1200px;
+    }
+    .list-disc {
+      padding-left: 1.25rem;
+    }
+    button {
+      background-color: #3B82F6;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+    button:hover {
+      background-color: #2563EB;
+    }
+    button:active {
+      background-color: #1D4ED8;
+    }
+    footer {
+      background-color: #111827;
+      color: #E5E7EB;
+    }
+    .skills li, .awards li {
+      padding-left: 1.5rem;
+      position: relative;
+    }
+    .skills li::before, .awards li::before {
+      content: '✔';
+      position: absolute;
+      left: 0;
+      color: #3B82F6;
+      font-size: 1.25rem;
+    }
+  </style>
 </head>
-<body class="bg-gray-100 text-gray-800 font-sans leading-relaxed">
-  
+<body class="bg-gray-50 text-gray-800 font-sans leading-relaxed">
+
   <!-- Header & Navigation -->
-  <header class="bg-white shadow-sm">
-    <nav class="container mx-auto p-5 flex justify-between">
-      <h1 class="text-3xl font-bold">Sofyan Zibdeh</h1>
-      <ul class="flex space-x-4">
-        <li><a href="#about" class="hover:underline">About Me</a></li>
-        <li><a href="#experience" class="hover:underline">Work Experience</a></li>
-        <li><a href="#projects" class="hover:underline">Projects</a></li>
-        <li><a href="#skills" class="hover:underline">Skills</a></li>
-        <li><a href="#awards" class="hover:underline">Awards</a></li>
-        <li><a href="#contact" class="hover:underline">Contact</a></li>
+  <header class="shadow-sm">
+    <nav class="container mx-auto p-5 flex justify-between items-center">
+      <h1 class="text-4xl font-bold">Sofyan Zibdeh</h1>
+      <ul class="flex space-x-6">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#experience">Work Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -51,142 +123,130 @@
   </section>
 
   <!-- Work Experience Section -->
-  <section id="experience" class="bg-gray-100 py-16 px-4">
-    <div class="container mx-auto">
-      <h3 class="text-3xl font-bold mb-6">Work Experience</h3>
-      <div class="mb-8">
-        <h4 class="text-2xl font-semibold">Digital Marketing & Business Development Coordinator</h4>
-        <p class="text-gray-700">Allennials at Work</p>
-        <p class="text-lg mt-4">
-          In this role, I managed a fully virtual press tour, crafting engaging press kits and curating targeted media outreach lists that boosted brand visibility. I also played a pivotal role in developing comprehensive branding strategies for multiple clients, including creating logos and defining brand DNA. My work in content creation involved authoring and optimizing website copy and blog posts for SEO, designing landing page copy, and managing content calendars. Additionally, I led a sales process project, conducting market research, competitor analysis, and overseeing email campaigns to enhance lead conversion.
-        </p>
-        <ul class="list-disc list-inside text-lg mt-4">
-          <li>Increased lead conversion rates by 10% through targeted competitor analysis and tailored sales scripts as part of a comprehensive sales process project.</li>
-          <li>Boosted client satisfaction by 15% through the development of cohesive branding strategies, including logo creation and brand identity development.</li>
-          <li>Enhanced SEO performance by 10%, optimized blog posts and website content for two clients, driving increased organic traffic and user engagement.</li>
-          <li>Managed a virtual press tour, which significantly increased the brand's visibility and media coverage by crafting engaging headlines and press kits.</li>
-          <li>Repurposed content and optimized landing pages, leading to improved user journey and higher engagement on client websites.</li>
-        </ul>
-      </div>
+  <section id="experience" class="container mx-auto bg-gray-50 py-16 px-4">
+    <h3 class="text-3xl font-bold mb-6">Work Experience</h3>
+    <div class="mb-8">
+      <h4 class="text-2xl font-semibold">Digital Marketing & Business Development Coordinator</h4>
+      <p class="text-gray-600">Allennials at Work</p>
+      <p class="text-lg mt-4">
+        In this role, I managed a fully virtual press tour, crafting engaging press kits and curating targeted media outreach lists that boosted brand visibility. I also played a pivotal role in developing comprehensive branding strategies for multiple clients, including creating logos and defining brand DNA. My work in content creation involved authoring and optimizing website copy and blog posts for SEO, designing landing page copy, and managing content calendars. Additionally, I led a sales process project, conducting market research, competitor analysis, and overseeing email campaigns to enhance lead conversion.
+      </p>
+      <ul class="list-disc list-inside text-lg mt-4">
+        <li>Increased lead conversion rates by 10% through targeted competitor analysis and tailored sales scripts as part of a comprehensive sales process project.</li>
+        <li>Boosted client satisfaction by 15% through the development of cohesive branding strategies, including logo creation and brand identity development.</li>
+        <li>Enhanced SEO performance by 10%, optimized blog posts and website content for two clients, driving increased organic traffic and user engagement.</li>
+        <li>Managed a virtual press tour, which significantly increased the brand's visibility and media coverage by crafting engaging headlines and press kits.</li>
+        <li>Repurposed content and optimized landing pages, leading to improved user journey and higher engagement on client websites.</li>
+      </ul>
+    </div>
 
-      <div class="mb-8">
-        <h4 class="text-2xl font-semibold">Digital Marketing Strategist</h4>
-        <p class="text-gray-700">Sports After 6</p>
-        <p class="text-lg mt-4">
-          As a digital marketing strategist, I led market research and competitive analysis efforts, defining clear marketing objectives and developing detailed buyer personas. I created a comprehensive content strategy and selected the most effective digital channels, including social media, SEO, PPC, and content marketing. I also allocated marketing budgets, projected ROI, and set up performance tracking tools to ensure the success of digital campaigns.
-        </p>
-        <ul class="list-disc list-inside text-lg mt-4">
-          <li>Improved marketing ROI by 10% by developing a comprehensive content strategy that utilized the most effective digital channels such as social media, SEO, PPC, and email marketing.</li>
-          <li>Increased brand visibility through strategic market research and competitive analysis, which informed a detailed buyer persona and content strategy.</li>
-          <li>Set up analytics tools to monitor key performance indicators (KPIs), ensuring the ability to measure and improve the performance of digital marketing campaigns.</li>
-        </ul>
-      </div>
+    <div class="mb-8">
+      <h4 class="text-2xl font-semibold">Digital Marketing Strategist</h4>
+      <p class="text-gray-600">Sports After 6</p>
+      <p class="text-lg mt-4">
+        As a digital marketing strategist, I led market research and competitive analysis efforts, defining clear marketing objectives and developing detailed buyer personas. I created a comprehensive content strategy and selected the most effective digital channels, including social media, SEO, PPC, and content marketing. I also allocated marketing budgets, projected ROI, and set up performance tracking tools to ensure the success of digital campaigns.
+      </p>
+      <ul class="list-disc list-inside text-lg mt-4">
+        <li>Improved marketing ROI by 10% by developing a comprehensive content strategy that utilized the most effective digital channels such as social media, SEO, PPC, and email marketing.</li>
+        <li>Increased brand visibility through strategic market research and competitive analysis, which informed a detailed buyer persona and content strategy.</li>
+        <li>Set up analytics tools to monitor key performance indicators (KPIs), ensuring the ability to measure and improve the performance of digital marketing campaigns.</li>
+      </ul>
+    </div>
 
-      <div class="mb-8">
-        <h4 class="text-2xl font-semibold">Branding Research & Strategist</h4>
-        <p class="text-gray-700">Hugo Boss</p>
-        <p class="text-lg mt-4">
-          I conducted in-depth research with Gen Z consumers, utilizing surveys and social media analytics to understand brand perceptions. My analysis of retail trends and competitor strategies informed actionable strategic recommendations that were presented to senior management. I also played a creative role in designing social media posts for product promotions, ensuring alignment with brand aesthetics and enhancing online engagement.
-        </p>
-        <ul class="list-disc list-inside text-lg mt-4">
-          <li>Received recognition for strategic insights by presenting comprehensive research findings and actionable recommendations to Hugo Boss senior management, positively impacting brand differentiation efforts.</li>
-          <li>Created high-performing social media content, aligning it with Hugo Boss’s brand aesthetics, which led to increased online engagement.</li>
-          <li>Identified gaps in competitor strategies through a comparative analysis, contributing to improved market positioning for Hugo Boss’s products.</li>
-        </ul>
-      </div>
+    <div class="mb-8">
+      <h4 class="text-2xl font-semibold">Branding Research & Strategist</h4>
+      <p class="text-gray-600">Hugo Boss</p>
+      <p class="text-lg mt-4">
+        I conducted in-depth research with Gen Z consumers, utilizing surveys and social media analytics to understand brand perceptions. My analysis of retail trends and competitor strategies informed actionable strategic recommendations that were presented to senior management. I also played a creative role in designing social media posts for product promotions, ensuring alignment with brand aesthetics and enhancing online engagement.
+      </p>
+      <ul class="list-disc list-inside text-lg mt-4">
+        <li>Received recognition for strategic insights by presenting comprehensive research findings and actionable recommendations to Hugo Boss senior management, positively impacting brand differentiation efforts.</li>
+        <li>Created high-performing social media content, aligning it with Hugo Boss’s brand aesthetics, which led to increased online engagement.</li>
+        <li>Identified gaps in competitor strategies through a comparative analysis, contributing to improved market positioning for Hugo Boss’s products.</li>
+      </ul>
+    </div>
 
-      <div class="mb-8">
-        <h4 class="text-2xl font-semibold">SEO & In-Bound Marketing Strategist</h4>
-        <p class="text-gray-700">Workden</p>
-        <p class="text-lg mt-4">
-          In this role, I led a comprehensive SEO project, leveraging tools like SEMrush for keyword research, site audits, and competitive analysis. I optimized blog content and website elements to improve organic search rankings and drive traffic. Additionally, I conducted lead generation and potential partner research, managing CRM systems to streamline partner integrations and service bookings across multiple platforms.
-        </p>
-        <ul class="list-disc list-inside text-lg mt-4">
-          <li>Increased website visibility and search engine rankings by leading a full-scale SEO project, utilizing tools like SEMrush for keyword research, site audits, and competitive analysis.</li>
-          <li>Optimized blog content for SEO, driving organic traffic and improving search engine performance across multiple industries.</li>
-          <li>Streamlined partner service bookings by managing and integrating partner information into CRM systems like LiquidSpace and Upflex, facilitating easier access for 30+ partnerships.</li>
-        </ul>
-      </div>
+    <div class="mb-8">
+      <h4 class="text-2xl font-semibold">SEO & In-Bound Marketing Strategist</h4>
+      <p class="text-gray-600">Workden</p>
+      <p class="text-lg mt-4">
+        In this role, I led a comprehensive SEO project, leveraging tools like SEMrush for keyword research, site audits, and competitive analysis. I optimized blog content and website elements to improve organic search rankings and drive traffic. Additionally, I conducted lead generation and potential partner research, managing CRM systems to streamline partner integrations and service bookings across multiple platforms.
+      </p>
+      <ul class="list-disc list-inside text-lg mt-4">
+        <li>Increased website visibility and search engine rankings by leading a full-scale SEO project, utilizing tools like SEMrush for keyword research, site audits, and competitive analysis.</li>
+        <li>Optimized blog content for SEO, driving organic traffic and improving search engine performance across multiple industries.</li>
+        <li>Streamlined partner service bookings by managing and integrating partner information into CRM systems like LiquidSpace and Upflex, facilitating easier access for 30+ partnerships.</li>
+      </ul>
     </div>
   </section>
 
   <!-- Projects Section -->
-  <section id="projects" class="py-16 px-4">
-    <div class="container mx-auto">
-      <h3 class="text-3xl font-bold mb-6">Projects</h3>
+  <section id="projects" class="container mx-auto py-16 px-4">
+    <h3 class="text-3xl font-bold mb-6">Projects</h3>
 
-      <!-- Existing Project Details -->
-      <div class="mb-8">
-        <h4 class="text-2xl font-semibold">Management Consulting Project Lead - Big 4 Firm</h4>
-        <p class="text-lg"> 
-          Led a comprehensive consultancy project focused on Environmental, Social, and Governance (ESG) for a family-owned business in the energy sector. Conducted in-depth ESG readiness analysis using SWOT and stakeholder frameworks, identifying sustainability challenges and opportunities. Synthesized findings to highlight competitive advantages, developed a strategic proposal with actionable recommendations, and delivered final presentations to senior stakeholders, successfully aligning with business objectives.
-        </p>
-      </div>
+    <div class="mb-8">
+      <h4 class="text-2xl font-semibold">Management Consulting Project Lead - Big 4 Firm</h4>
+      <p class="text-lg"> 
+        Led a comprehensive consultancy project focused on Environmental, Social, and Governance (ESG) for a family-owned business in the energy sector. Conducted in-depth ESG readiness analysis using SWOT and stakeholder frameworks, identifying sustainability challenges and opportunities. Synthesized findings to highlight competitive advantages, developed a strategic proposal with actionable recommendations, and delivered final presentations to senior stakeholders, successfully aligning with business objectives.
+      </p>
+    </div>
 
-      <div class="mb-8">
-        <h4 class="text-2xl font-semibold">Market Research Project Lead</h4>
-        <p class="text-lg">
-          Oversaw a detailed market research initiative, conducting demographic studies, consumer behavior analysis, and competitive landscape evaluations. Utilized various research methodologies, including surveys and focus groups, to gather actionable insights. Developed a strategic proposal outlining market entry and growth strategies, and presented findings to key stakeholders, effectively identifying market opportunities and threats.
-        </p>
-      </div>
+    <div class="mb-8">
+      <h4 class="text-2xl font-semibold">Market Research Project Lead</h4>
+      <p class="text-lg">
+        Oversaw a detailed market research initiative, conducting demographic studies, consumer behavior analysis, and competitive landscape evaluations. Utilized various research methodologies, including surveys and focus groups, to gather actionable insights. Developed a strategic proposal outlining market entry and growth strategies, and presented findings to key stakeholders, effectively identifying market opportunities and threats.
+      </p>
+    </div>
 
-      <div class="mb-8">
-        <h4 class="text-2xl font-semibold">Marketing Plan Project</h4>
-        <p class="text-lg">
-          Collaborated on a marketing plan designed to address a client’s seasonal performance challenges. Conducted in-depth market analysis to uncover the root causes of the downturn, and helped develop a comprehensive proposal with strategies focused on improving summer operations. Contributed to creating a full marketing plan, including promotional strategies, target audience segmentation, and budget allocation, ensuring alignment with client goals.
-        </p>
-      </div>
+    <div class="mb-8">
+      <h4 class="text-2xl font-semibold">Marketing Plan Project</h4>
+      <p class="text-lg">
+        Collaborated on a marketing plan designed to address a client’s seasonal performance challenges. Conducted in-depth market analysis to uncover the root causes of the downturn, and helped develop a comprehensive proposal with strategies focused on improving summer operations. Contributed to creating a full marketing plan, including promotional strategies, target audience segmentation, and budget allocation, ensuring alignment with client goals.
+      </p>
+    </div>
 
-      <!-- New Video and Portfolio Section -->
-      <div class="mb-8">
-        <h4 class="text-2xl font-semibold">Video Project for Hugo Boss</h4>
-        <p class="text-lg mb-6">Here is a video I created for Hugo Boss showcasing my work in branding and social media content.</p>
-        <!-- YouTube Short Embed -->
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/egMCLfQ6yqI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
+    <div class="mb-8">
+      <h4 class="text-2xl font-semibold">Video Project for Hugo Boss</h4>
+      <p class="text-lg mb-6">Here is a video I created for Hugo Boss showcasing my work in branding and social media content.</p>
+      <!-- YouTube Short Embed -->
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/egMCLfQ6yqI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
-      <div class="mb-8">
-        <p class="text-lg mb-4">You can also view my social media portfolio here:</p>
-        <a href="https://www.canva.com/design/DAF83kUEUQs/M8JZ8Weiy6NaAXChf9c4wQ/view?utm_content=DAF83kUEUQs&utm_campaign=designshare&utm_medium=link&utm_source=editor" class="text-blue-600 underline">Social Media Portfolio</a>
-      </div>
+    <div class="mb-8">
+      <p class="text-lg mb-4">You can also view my social media portfolio here:</p>
+      <a href="https://www.canva.com/design/DAF83kUEUQs/M8JZ8Weiy6NaAXChf9c4wQ/view?utm_content=DAF83kUEUQs&utm_campaign=designshare&utm_medium=link&utm_source=editor" class="text-blue-600 underline">Social Media Portfolio</a>
     </div>
   </section>
 
   <!-- Skills Section -->
-  <section id="skills" class="bg-gray-100 py-16 px-4">
-    <div class="container mx-auto">
-      <h3 class="text-3xl font-bold mb-6">Skills</h3>
-      <ul class="list-disc list-inside text-lg">
-        <li>Digital Marketing Strategy</li>
-        <li>Branding & Identity Development</li>
-        <li>SEO & Content Optimization</li>
-        <li>Content Creation & Management</li>
-        <li>Market Research & Analysis</li>
-        <li>Project Leadership</li>
-        <li>Sales Process Optimization</li>
-        <li>Creative Problem-Solving</li>
-      </ul>
-    </div>
+  <section id="skills" class="container mx-auto bg-gray-50 py-16 px-4">
+    <h3 class="text-3xl font-bold mb-6">Skills</h3>
+    <ul class="list-disc list-inside text-lg">
+      <li>Digital Marketing Strategy</li>
+      <li>Branding & Identity Development</li>
+      <li>SEO & Content Optimization</li>
+      <li>Content Creation & Management</li>
+      <li>Market Research & Analysis</li>
+      <li>Project Leadership</li>
+      <li>Sales Process Optimization</li>
+      <li>Creative Problem-Solving</li>
+    </ul>
   </section>
 
   <!-- Awards Section -->
-  <section id="awards" class="py-16 px-4">
-    <div class="container mx-auto">
-      <h3 class="text-3xl font-bold mb-6">Awards & Certifications</h3>
-      <ul class="list-disc list-inside">
-        <li><strong>Leadership in Digital Innovation –</strong> Allennials at Work</li>
-        <li><strong>Strategic Insight Recognition –</strong> Hugo Boss</li>
-        <li><strong>Google Digital Marketing & E-commerce Professional Certificate</strong></li>
-        <li><strong>Inbound Sales Certification</strong></li>
-        <li><strong>Branding Research & Strategy Externship</strong></li>
-      </ul>
-    </div>
+  <section id="awards" class="container mx-auto py-16 px-4">
+    <h3 class="text-3xl font-bold mb-6">Awards & Certifications</h3>
+    <ul class="list-disc list-inside text-lg">
+      <li><strong>Leadership in Digital Innovation –</strong> Allennials at Work</li>
+      <li><strong>Strategic Insight Recognition –</strong> Hugo Boss</li>
+      <li><strong>Google Digital Marketing & E-commerce Professional Certificate</strong></li>
+      <li><strong>Inbound Sales Certification</strong></li>
+      <li><strong>Branding Research & Strategy Externship</strong></li>
+    </ul>
   </section>
 
   <!-- Contact Section -->
-  <!-- Contact Section -->
-<section id="contact" class="bg-gray-200 py-16 px-4">
-  <div class="container mx-auto">
+  <section id="contact" class="container mx-auto bg-gray-100 py-16 px-4">
     <h3 class="text-3xl font-bold mb-6">Contact Me</h3>
     <form action="https://formspree.io/f/xwpeznob" method="POST" class="bg-white p-8 shadow-lg rounded-lg">
       <div class="mb-4">
@@ -201,15 +261,13 @@
         <label for="message" class="block text-gray-700">Message:</label>
         <textarea name="message" id="message" rows="4" class="w-full px-4 py-2 border rounded-lg" required></textarea>
       </div>
-      <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">Send Message</button>
+      <button type="submit" class="w-full bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">Send Message</button>
     </form>
-  </div>
-</section>
-
+  </section>
 
   <!-- Footer -->
-  <footer class="bg-white text-center py-6">
-    <p class="text-gray-600">&copy; 2024 Sofyan Zibdeh. All Rights Reserved.</p>
+  <footer class="bg-gray-900 text-center py-6">
+    <p class="text-gray-400">&copy; 2024 Sofyan Zibdeh. All Rights Reserved.</p>
   </footer>
 
 </body>
